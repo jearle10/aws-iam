@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function main () {
-    echo "Checking roles configuration for role xmarket"
+    echo "Checking roles configuration for role $input_role"
     username=$1
     input_role=$2
     echo $input_role
